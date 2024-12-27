@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "DigPatho AI",
+  description: "AI Medical image analysis platform for pathologists",
 };
 
 import PageIllustration from "@/components/page-illustration";
@@ -13,7 +13,7 @@ import Cta from "@/components/cta";
 export default function Home() {
   return (
     <>
-      <PageIllustration />
+      {/* <PageIllustration /> */}
       <Hero />
       <Workflows />
       <Features />

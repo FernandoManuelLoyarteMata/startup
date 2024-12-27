@@ -34,18 +34,19 @@ export default function Features() {
         <div className="border-t py-12 [border-image:linear-gradient(to_right,transparent,theme(colors.slate.400/.25),transparent)1] md:py-20">
           {/* Section header */}
           <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
-            <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-indigo-200/50">
-              <span className="inline-flex bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                Advanced Controls
+            <div className="inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-sky-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-sky-200/50">
+              <span className="inline-flex bg-gradient-to-r from-sky-500 to-sky-200 bg-clip-text text-transparent">
+                Multidisciplinary and Multicultural Expertise
               </span>
             </div>
-            <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-              Built for modern product teams
+            <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.sky.200),theme(colors.gray.50),theme(colors.sky.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
+              About Us Innovative AI-Based Diagnostics
             </h2>
-            <p className="text-lg text-indigo-200/65">
-              Open AI reads and understands your files, and with nothing more
-              than a single line of feedback, so you can go further than the
-              speed of thought.
+            <p className="text-lg text-sky-200/65">
+              Our team operates in a dynamic environment of multidisciplinary
+              and multicultural knowledge. Through collaboration between experts
+              in pathological anatomy, bioengineering, and microscopic image
+              analysis, we develop and refine our AI-based diagnostic tools.
             </p>
           </div>
           <div className="flex justify-center pb-4 md:pb-12" data-aos="fade-up">
@@ -61,28 +62,32 @@ export default function Features() {
           <div className="mx-auto grid max-w-sm gap-12 sm:max-w-none sm:grid-cols-2 md:gap-x-14 md:gap-y-16 lg:grid-cols-3">
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                width={24}
-                height={24}
               >
-                <path d="M0 0h14v17H0V0Zm2 2v13h10V2H2Z" />
                 <path
-                  fillOpacity=".48"
-                  d="m16.295 5.393 7.528 2.034-4.436 16.412L5.87 20.185l.522-1.93 11.585 3.132 3.392-12.55-5.597-1.514.522-1.93Z"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                  d="M6.87683 5.54922C7.22615 5.43297 7.41494 5.056 7.29852 4.70725C7.18207 4.35853 6.80446 4.17004 6.45514 4.28629L5.96195 4.45041C5.45444 4.61928 5.02425 4.76241 4.68276 4.91826C4.31934 5.08408 4.00125 5.28756 3.74803 5.60676C3.49481 5.92592 3.36925 6.28167 3.2908 6.6728C3.21708 7.04037 3.17604 7.49121 3.12762 8.02309L2.50777 14.8301C2.46583 15.0673 2.44377 15.3114 2.44336 15.5606C2.4482 17.8847 4.33688 19.7833 6.66599 19.7833C8.76684 19.7833 10.5094 18.2517 10.8343 16.2459L11.029 16.1764C11.6569 15.9529 12.3428 15.9529 12.9707 16.1764L13.1654 16.2459C13.4903 18.2517 15.2328 19.7833 17.3337 19.7833C19.6628 19.7833 21.5514 17.8847 21.5563 15.5606C21.5559 15.3114 21.5338 15.0673 21.4919 14.8301L20.8721 8.02309C20.8236 7.49121 20.7826 7.04037 20.7089 6.6728C20.6304 6.28167 20.5048 5.92592 20.2517 5.60676C19.9984 5.28756 19.6803 5.08408 19.3169 4.91826C18.9754 4.76241 18.5453 4.61928 18.0378 4.45041L17.5445 4.28629C17.1952 4.17004 16.8177 4.35853 16.7012 4.70725C16.5847 5.056 16.7736 5.43297 17.1228 5.54922L17.5835 5.70249C18.1324 5.88515 18.4939 6.00639 18.7626 6.12904C19.0166 6.24495 19.1307 6.33784 19.2063 6.43327C19.2821 6.5287 19.3465 6.66075 19.4014 6.93422C19.4594 7.22343 19.4948 7.60258 19.5472 8.17774L19.9164 12.2323C19.2024 11.6805 18.3065 11.3521 17.3337 11.3521C15.2489 11.3521 13.5171 12.8604 13.1731 14.8435C12.4067 14.6222 11.5929 14.6222 10.8266 14.8435C10.4826 12.8604 8.75074 11.3521 6.66599 11.3521C5.6932 11.3521 4.79723 11.6805 4.08329 12.2323L4.12627 11.7604L4.4525 8.17774C4.50488 7.60258 4.5403 7.22343 4.5983 6.93422C4.65317 6.66075 4.71764 6.5287 4.79335 6.43327C4.86903 6.33784 4.98301 6.24495 5.2371 6.12904C5.50579 6.00639 5.86736 5.88515 6.41618 5.70249L6.87683 5.54922ZM20.1697 15.0141L20.2227 15.5964C20.2073 17.1762 18.9197 18.4521 17.3337 18.4521C15.7381 18.4521 14.4445 17.1607 14.4445 15.5677C14.4445 13.9748 15.7381 12.6833 17.3337 12.6833C18.7397 12.6833 19.9111 13.686 20.1697 15.0141ZM3.82997 15.0141L3.77695 15.5964C3.79238 17.1762 5.07991 18.4521 6.66599 18.4521C8.26164 18.4521 9.55516 17.1607 9.55516 15.5677C9.55516 13.9748 8.26164 12.6833 6.66599 12.6833C5.26 12.6833 4.08858 13.686 3.82997 15.0141Z"
+                  fill="#0EA5E9"
                 />
               </svg>
+
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Project Milestones
+                Expert Collaboration
               </h3>
-              <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+              <p className="text-sky-200/65">
+                Our models are created and studied through the collaboration of
+                experts in various fields, ensuring comprehensive and accurate
+                diagnostic tools.
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-sky-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -91,16 +96,17 @@ export default function Features() {
                 <path d="M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Team Views
+                Training Modules
               </h3>
-              <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+              <p className="text-sky-200/65">
+                We provide essential training modules for new medical
+                specialists, allowing pathologists in training to enhance their
+                diagnostic skills using our AI models.
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-sky-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -112,16 +118,18 @@ export default function Features() {
                 />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Advanced Search
+                Transparency and Review
               </h3>
-              <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+              <p className="text-sky-200/65">
+                We believe in the transparency of our methods. Our users have
+                access to the background of the AI models they use, and we
+                regularly share our results in scientific events and
+                publications.
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-sky-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -138,16 +146,17 @@ export default function Features() {
                 <path d="m16.321 2-.5-.866 1.733-1 .5.866A22 22 0 0 1 21 12c0 3.852-1.017 7.636-2.948 10.97l-.502.865-1.73-1.003.501-.865A19.878 19.878 0 0 0 19 12a20 20 0 0 0-2.679-10Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Strategic Initiatives
+                Continuous Improvement
               </h3>
-              <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+              <p className="text-sky-200/65">
+                Our commitment to continuous improvement drives us to work daily
+                on developing AI-based functionalities, ensuring increasingly
+                precise results.
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-sky-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -159,16 +168,17 @@ export default function Features() {
                 <path d="m7.454 2.891.891-.454L7.437.655l-.891.454a12 12 0 0 0 0 21.382l.89.454.91-1.781-.892-.455a10 10 0 0 1 0-17.818ZM17.456 1.11l-.891-.454-.909 1.782.891.454a10 10 0 0 1 0 17.819l-.89.454.908 1.781.89-.454a12 12 0 0 0 0-21.382Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Flexible Workflows
+                Community Engagement
               </h3>
-              <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+              <p className="text-sky-200/65">
+                We engage with the scientific community to ensure our methods
+                are constantly reviewed and improved, fostering trust and
+                reliability in our tools.
               </p>
             </article>
             <article>
               <svg
-                className="mb-3 fill-indigo-500"
+                className="mb-3 fill-sky-500"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
                 height={24}
@@ -180,11 +190,12 @@ export default function Features() {
                 <path d="M19.406 3.844 6.083 20.497.586 15 2 13.586l3.917 3.917L17.844 2.595l1.562 1.25Z" />
               </svg>
               <h3 className="mb-1 font-nacelle text-[1rem] font-semibold text-gray-200">
-                Unified Timeline
+                Scientific Publications
               </h3>
-              <p className="text-indigo-200/65">
-                Track progress across custom flows for your team. Find the right
-                balance for the user, privacy and security.
+              <p className="text-sky-200/65">
+                We disclose our findings and advancements in recognized
+                scientific publications, contributing to the broader medical and
+                scientific community.
               </p>
             </article>
           </div>

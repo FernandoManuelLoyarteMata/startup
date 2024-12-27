@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Logo from "./logo";
+import Image from "next/image";
 
 export default function Header() {
   return (
@@ -11,6 +12,7 @@ export default function Header() {
           {/* Site branding */}
           <div className="flex flex-1 items-center">
             <Logo />
+          
           </div>
 
           {/* Desktop sign in links */}
@@ -26,7 +28,7 @@ export default function Header() {
             <li>
               <Link
                 href="/signup"
-                className="btn-sm bg-gradient-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
+                className="btn-sm bg-gradient-to-t from-sky-600 to-sky-500 bg-[length:100%_100%] bg-[bottom] py-[5px] text-white shadow-[inset_0px_1px_0px_0px_theme(colors.white/.16)] hover:bg-[length:100%_150%]"
               >
                 Register
               </Link>

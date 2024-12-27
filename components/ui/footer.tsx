@@ -7,7 +7,7 @@ export default function Footer() {
     <footer>
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         {/* Footer illustration */}
-        <div
+        {/* <div
           className="pointer-events-none absolute bottom-0 left-1/2 -z-10 -translate-x-1/2"
           aria-hidden="true"
         >
@@ -18,7 +18,7 @@ export default function Footer() {
             height={378}
             alt="Footer illustration"
           />
-        </div>
+        </div> */}
         <div className="grid grid-cols-2 justify-between gap-12 py-8 sm:grid-rows-[auto_auto] md:grid-cols-4 md:grid-rows-[auto_auto] md:py-12 lg:grid-cols-[repeat(4,minmax(0,140px))_1fr] lg:grid-rows-1 xl:gap-20">
           {/* 1st block */}
           <div className="space-y-2">
@@ -26,7 +26,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Features
@@ -34,7 +34,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Integrations
@@ -42,7 +42,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Pricing &amp; Plans
@@ -50,7 +50,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Changelog
@@ -58,7 +58,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Our method
@@ -66,7 +66,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   User policy
@@ -80,7 +80,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   About us
@@ -88,7 +88,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Diversity &amp; Inclusion
@@ -96,7 +96,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Blog
@@ -104,7 +104,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Careers
@@ -112,7 +112,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Financial statements
@@ -126,7 +126,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Community
@@ -134,7 +134,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Terms of service
@@ -142,7 +142,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Report a vulnerability
@@ -158,7 +158,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Templates
@@ -166,7 +166,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Tutorials
@@ -174,7 +174,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Knowledge base
@@ -182,7 +182,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Learn
@@ -190,7 +190,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Cookie manager
@@ -204,11 +204,11 @@ export default function Footer() {
               <Logo />
             </div>
             <div className="text-sm">
-              <p className="mb-3 text-indigo-200/65">
-                © Cruip.com
+              <p className="mb-3 text-sky-200/65">
+                © DigPatho AI
                 <span className="text-gray-700"> · </span>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-sky-200/65 transition hover:text-sky-500"
                   href="#0"
                 >
                   Terms
@@ -217,7 +217,7 @@ export default function Footer() {
               <ul className="inline-flex gap-1">
                 <li>
                   <a
-                    className="flex items-center justify-center text-indigo-500 transition hover:text-indigo-400"
+                    className="flex items-center justify-center text-sky-500 transition hover:text-sky-400"
                     href="#0"
                     aria-label="Twitter"
                   >
@@ -232,7 +232,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    className="flex items-center justify-center text-indigo-500 transition hover:text-indigo-400"
+                    className="flex items-center justify-center text-sky-500 transition hover:text-sky-400"
                     href="#0"
                     aria-label="Medium"
                   >
@@ -247,7 +247,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    className="flex items-center justify-center text-indigo-500 transition hover:text-indigo-400"
+                    className="flex items-center justify-center text-sky-500 transition hover:text-sky-400"
                     href="#0"
                     aria-label="Github"
                   >
